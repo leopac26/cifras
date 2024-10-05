@@ -1,0 +1,224 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .titulo-menu{
+    border: 1px solid blue;
+    background: blue;
+  color: rgb(250, 153, 9);
+  margin: auto;
+  font-size: 48px;
+  text-align: center;
+  width: 100vw;
+  justify-content: center;
+  position: fixed;
+  
+  }
+
+  .menu-principal{
+    position: fixed;
+  border: 1px solid blue;
+  background:blue;
+  color: white;
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  width: 100%;
+  
+}
+
+.menu-tabela{
+    margin:25px 5px 5px 5px;
+    background: rgb(119, 3, 71);
+    
+    
+  }
+
+  .menu-tabela a {
+    color:white;
+    margin: 0px 5px 5px 5px;
+    
+    
+    
+  }
+  
+  #controls {
+    position: fixed;
+    width: 75px;
+    height: 420px;
+    vertical-align: middle;
+    background: rgb(153, 153, 168);
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    background-color: #f0f0f0;
+    
+  }
+  
+  button {
+    padding: 1px;
+    margin: 15px 0px 0px 0px;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 70px;
+    height: 40px;
+    font-weight: bold;
+    display: block;
+  } 
+  
+  .container {
+    overflow: scroll;
+    border: 2px solid black;
+  }
+  
+  
+  pre {
+    font-size: 16px;
+  }
+  
+  
+  
+  b {
+    color: blue;
+    font-size: 16px;
+  }
+  
+  
+  
+  #scroll-container {
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+  
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  #scroll-text {
+    position: absolute;
+    white-space: nowrap;
+    white-space: normal;
+  }
+  
+  #speed-control {
+    width: 60px;
+  }
+  
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+  }
+  
+  
+  #controls {
+    
+  }
+  
+  .control-button {
+    margin-bottom: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    color: #333;
+    text-align: center;
+  }
+  
+  #scroll-container {
+    margin: 100px 0px 0px 100px;
+    padding: 10px;
+    height: auto;
+    width: 91%;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    font-size: 16px;
+  }
+  
+  pre {
+    margin: 150px 10px 10px 5px;
+  }
+
+
+
+  @media(max-width:680px) {  
+  
+    #controls {
+      display: flex;
+      width: 30%;
+      height: 25px;
+      margin: 65px auto 0px auto;
+      flex-direction: row;
+      flex-wrap: wrap;
+      height: auto;
+      border-right: none;
+      border-bottom: none;
+      position: static;
+      justify-content: space-around;
+      padding: 1px 0;
+      border-radius: 5%;
+  
+    }
+    .titulo-menu{font-size:20px;
+    display: none;}
+  
+    button {
+      margin: 0px 2px auto 2px;
+      height: 25px;
+  
+    }
+    .control-button {
+        flex: 1 1 30%;
+        padding: 1px 0px;
+        font-size: 10px;
+        text-align: center;
+        margin: 1px;
+      }
+    
+      #scroll-container {
+        margin: 80px 0px 0px 0px;
+        overflow-y: auto;
+        margin-top: 30px;
+        height: calc(100vh - 220px);
+        padding-top: 5px;
+        width: 100%;
+      }
+    
+      #content {
+        margin-top: 10px;
+      }
+
+      .menu-principal{font-size: 16px;
+        margin-top: 25px;
+      display: none;}
+        
+        #scroll-toggle{
+            display: none;
+            
+        }
+
+        #muda-cor{
+            display: none;
+            
+        }
+        #scroll-up{display: none;}
+        #scroll-down{display: none;}
+        #scroll-reset{display: none;}
+        #transpose-up{display: none;}
+        #transpose-down{display: none;}
+        #font-size-up{display: none;}
+        #font-size-down{display: none;}
+
+
+  }
+  
+  
+  
